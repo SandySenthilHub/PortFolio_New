@@ -1,0 +1,1496 @@
+body {
+    margin: auto;
+    font-family: cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    width: 100%;
+    background-image: url("./bg.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#lay1{
+    margin-top: 5px;
+}
+.row,
+#lay2,
+#lay3,
+#lay4,
+#lay5,
+#lay6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    margin-top: -40px;
+
+}
+#lay2{
+    margin-top: 10px;
+
+}
+#lay7{
+    margin-top: -40px;
+
+}
+
+
+#left,
+#left2 {
+    width: 35%;
+
+}
+
+#right,
+#right2 {
+    width: 50%;
+    height: 575px;
+    text-align: start;
+
+
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    color: blanchedalmond;
+
+}
+
+.name {
+    margin-left: 65px;
+    font-size: 80px;
+    margin-top: -30px;
+    color: blanchedalmond;
+    letter-spacing: 5px;
+    transition: 1s;
+    transform: scale(1);
+
+}
+
+.name:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.stack {
+    font-size: 30px;
+    color: blanchedalmond;
+    margin-top: -60px;
+    letter-spacing: 35px;
+
+
+}
+
+.prof {
+    font-size: 70px;
+    margin-top: -40px;
+    color: blanchedalmond;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: left;
+    margin-left: -50%;
+    padding-top: 10%;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1);
+    color: white;
+    font-weight: bolder;
+    padding: 12px;
+    border-radius: 40px;
+ 
+
+}
+
+
+
+nav ul li a:hover {
+    background: linear-gradient(to left, white 50%, black 50%) right;
+    background-size: 200%;
+    color: black;
+    letter-spacing: 4px;
+    transform: scale(1.1);
+}
+
+.media_button {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: none;
+}
+
+.main_media_button {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 13, 25);
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.main_media_button span {
+    width: 98%;
+    height: 1px;
+    display: block;
+    background-color: #fff;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+.nav div.media_button button.active span:nth-of-type(2) {
+    display: none;
+}
+
+/* tab2 */
+
+#lay2 {
+    /* margin-top: 5%; */
+
+}
+
+
+
+.img {
+    height: 600px;
+    margin-left: 40px;
+    padding: 2%;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px 1px rgb(88, 86, 86);
+    transition: all 1.5s;
+    transform: scale(0.8);
+
+}
+
+.img:hover {
+    transform: scale(0.9);
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.about,
+.edu,
+.exp,
+.head {
+    /* margin-top: 5px; */
+    transition: 0.5s;
+    color: white;
+    width: fit-content;
+}
+
+.aboutContent {
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: justify;
+    line-height: 45px;
+    word-spacing: 2px;
+    /* list-style-type:'S  '; */
+    /* list-style-image: url('./IMG_20210929_114327.jpg '); */
+    /* list-style: url('./icon.png'); */
+
+
+}
+
+.about:hover,
+.edu:hover,
+.exp:hover,
+.head:hover {
+    letter-spacing: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    width: fit-content;
+    color: black;
+}
+
+
+
+#median {
+    margin-left: 15%;
+}
+
+.pg,
+.hsc,
+.sslc {
+
+
+    padding: 10px;
+    text-align: end;
+    font-size: 30px;
+    color: white;
+    /* padding:5px; */
+    margin-bottom: 20px;
+    transition: 1s ease-out;
+    transform: scale(1);
+
+}
+
+.hsc {
+
+    text-align: start;
+
+
+}
+
+
+.sslc:hover,
+.pg:hover {
+
+    transform: scale(1.1);
+    border-radius: 30px;
+    background: linear-gradient(to left, rgb(243, 238, 238) 50%, rgb(73, 72, 72) 50%) right;
+    background-size: 200%;
+    color: black;
+
+
+}
+
+.hsc:hover {
+    border-radius: 30px;
+    background: linear-gradient(to left, rgb(73, 72, 72) 50%, rgb(243, 238, 238) 50%)right;
+    background-size: 200%;
+    transform: scale(1.1);
+}
+
+#lay3,
+#lay4,
+#lay5,
+#lay6 {
+    /* margin-top: -30px; */
+
+}
+
+.edmargin {
+    margin-top: -25px;
+}
+
+/* tab4 */
+
+#Experience {
+
+    font-size: 22px;
+    color: white;
+    margin-left: 15%;
+    /* margin-top: 5%; */
+
+}
+
+.explist {
+    line-height: 40px;
+}
+
+.job {
+    letter-spacing: 8px;
+}
+
+.expDiv1 {
+    margin-left: 25%;
+    padding: 10px;
+    font-size: 20px;
+    transition: 1s;
+    transform: scale(1);
+    border-radius: 40px;
+    width: fit-content;
+    line-height: 15px;
+}
+
+.expDiv1:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to left, white 50%, black 50%) right;
+    color: black;
+    background-size: 200%;
+
+
+}
+
+.expDiv2 {
+    margin-top: 2%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.roll {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.roll:hover,
+.roll2:hover {
+    transform: scale(1.1);
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+
+.roll2{
+    width: 200px;
+    height: 280px;
+    margin: 10px;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+    transform: scale(1);
+}
+
+/* tab5 */
+
+#lay5 {
+    width: 95%
+}
+
+#project {
+    margin-left: 15%;
+}
+
+
+.div1 {
+    color: white;
+    font-size: 50px;
+    margin-left: 100px;
+    width: fit-content;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.div2 {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    transform: scale(1);
+    transition: 1s;
+
+}
+.div2_Zom{
+    margin-top: -200px;
+    margin-bottom: -10px;
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    transform: scale(1);
+    transition: 1s;
+}
+
+#langflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+#langleft {
+    margin-top: 5%;
+    width: 50%;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+    line-height: 50px;
+}
+#langleft_Calc{
+    margin-top: 5%;
+    width: 90%;
+    text-align: justify;
+    font-size: 25px;
+    color: white;
+    line-height: 50px;
+}
+
+#link{
+    color:white;
+    text-decoration: none;
+}
+#link:hover{
+   color:red
+}
+
+#langright {
+    margin-left: 10%;
+    /* width: 40%; */
+    height: 890px;
+    color: white;
+    font-size: 25px;
+    margin-top: -10px;
+}
+#langright_Zom{
+    margin-left: 10%;
+    width: 40%;
+    height: 890px;
+    color: white;
+    font-size: 25px;
+    margin-top: -500px;
+
+}
+
+.config {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: 1s;
+    /* margin-top: -10px; */
+}
+
+.config:hover {
+    letter-spacing: 5px;
+    transform: scale(1.5);
+}
+
+.div1:hover {
+    width: fit-content;
+    background-color: rgb(252, 251, 251);
+    border-radius: 30px;
+    padding: 5px;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+.div2:hover {
+    width: fit-content;
+    background-color: rgb(252, 251, 251);
+    border-radius: 30px;
+    padding: 5px;
+    color: black;
+    transform: scale(1.1);
+    letter-spacing: 5px;
+
+}
+
+#proOverview {
+    transition: 1s;
+
+}
+
+#proOverview:hover {
+
+    background: linear-gradient(to left, rgb(243, 238, 238) 50%, rgb(73, 72, 72) 50%) right;
+    background-size: 200%;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+
+}
+
+/* tab6 */
+
+#lay6 {
+    padding-bottom: 30%;
+
+}
+
+
+#skillstab {
+    width: 25%;
+    margin-left: 15%;
+}
+
+#skillsContent {
+    width: 60%;
+    margin-top: 50px;
+    height: 120px;
+    line-height: 55px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.Skills {
+    transition: 0.5s;
+    color: white;
+    width: fit-content;
+}
+
+.Skills:hover {
+    letter-spacing: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    width: fit-content;
+    color: black;
+
+}
+
+.sk {
+    display: none;
+}
+
+.tabSkill {
+    color: white;
+    margin-left: 3%;
+    font-size: 30px;
+    line-height: 65px;
+    /* letter-spacing: 10px; */
+    list-style: none;
+    transform: scale(1);
+}
+
+.tabSkill:hover {
+
+    color: black;
+    transform: scale(1.2);
+
+
+}
+
+.tabSkill.acti {
+    transform: scale(1.2);
+    color: black;
+
+
+
+}
+
+
+.sk.act {
+    display: block;
+
+}
+
+
+
+/* tab7 */
+#contact {
+    width: 40%;
+    margin-left: 15%;
+}
+
+#contactContent {
+    width: 45%;
+    /* margin-top: 50px; */
+    height: 400px;
+}
+
+
+
+.Contacts {
+    transition: 0.5s;
+    color: white;
+    width: fit-content;
+    margin-top: -30px;
+    
+}
+.mail,
+.linkedin,
+.GitHub{
+    color:white;
+    text-decoration: none;
+}
+
+.Contacts:hover {
+    letter-spacing: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    width: fit-content;
+    color: black;
+
+}
+
+.ID {
+    color: white;
+    font-size: 35px;
+    margin-left: -10px;
+}
+
+.ID ul li {
+    margin-top: 35%;
+    list-style: none;
+
+}
+
+.ID ul li:hover {
+    cursor: pointer;
+
+}
+
+
+
+.ID {
+    display: none;
+}
+
+.tabLinks {
+    color: white;
+    margin-left: 30%;
+    font-size: 30px;
+    line-height: 80px;
+    width: 250px;
+    border-radius: 30px;
+    list-style: none;
+    font-weight: bolder;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.tabLinks:hover {
+
+    color: black;
+    letter-spacing: 4px;
+    transform: scale(1.1);
+
+
+
+}
+
+.tabLinks.active {
+    color: black;
+    letter-spacing: 4px;
+    transform: scale(1.1);
+    margin-top: 8%;
+
+
+
+}
+
+
+.ID.activeTab {
+    display: block;
+
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container,
+.slideshow {
+  max-width: 900px;
+  position: relative;
+  margin: 0 0 20px 50px;
+}
+
+/* Hide the images by default */
+.mySlides,.mySlide {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next,
+.prevv, .nextt {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next,
+.nextt {
+  right: 20px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prevv:hover, .nextt:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+/* Caption text */
+.text,
+.textt {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+}
+
+/* Number text (1/3 etc) */
+.numbertext,
+.numbertextt {
+  color:black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot,
+.dott {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 10px 0 10px 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.imgActive, .dot:hover {
+  background-color: #717171;
+}
+
+.imgActivee, .dott:hover {
+    background-color: #717171;
+  }
+
+/* Fading animation */
+.fade ,
+.fadee{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fadee {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/*  */
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+@media screen and (min-width : 320px) and (max-width : 480px) {
+
+    /* lay1 */
+
+
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .name {
+        margin-left: 65px;
+        font-size: 40px;
+        margin-top: 30px;
+        color: blanchedalmond;
+        letter-spacing: 5px;
+        transition: 1s;
+        transform: scale(1);
+
+    }
+
+    .header {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 100%;
+        padding-right: 100%;
+    }
+
+
+    #right {
+        width: 95%;
+    }
+
+    h1 {
+        margin-top: 100px;
+        font-size: 35px;
+        margin-left: 10%;
+        color: blanchedalmond;
+
+    }
+
+    .stack {
+        font-size: 35px;
+        color: blanchedalmond;
+        margin-top: 30px;
+        margin-left: 8%;
+        letter-spacing: 48px;
+
+
+    }
+
+    #full {
+        letter-spacing: 75px;
+    }
+
+    .prof {
+        font-size: 40px;
+        margin-top: -22px;
+        color: blanchedalmond;
+        margin-left: 8%;
+        letter-spacing: 2px;
+
+    }
+
+    .main_list {
+        width: 100%;
+        margin-top: 35px;
+        margin-left: 35px;
+        height: 0px;
+        line-height: 5px;
+        overflow: hidden;
+        background-color: rgb(77, 76, 75);
+        border-radius: 0px 50px 10px 0px;
+        color: black;
+    }
+
+    .show {
+        height: fit-content;
+
+    }
+
+    .media_button {
+        display: block;
+    }
+
+    nav ul li a {
+        color: white;
+        font-weight:lighter;
+        width: 100px;
+        font-size: 22px;
+    
+    }
+
+    nav ul li a:hover {
+        color: black;
+        letter-spacing: 5px;
+        transform: scale(1.1);
+    }
+
+    nav ul li {
+        text-align: left;
+        padding-top: 10px;
+
+    }
+
+    /* lay2 */
+
+    #left2,
+    #right2 {
+        width: 90%;
+    }
+
+    .img {
+        height: 500px;
+    }
+
+    .about:hover,
+    .edu:hover,
+    .exp:hover,
+    .head:hover {
+        letter-spacing: 15px;
+        padding: 2px;
+    }
+
+    .aboutContent {
+        color: white;
+        margin-left: 20px;
+        text-align: justify;
+        font-size: 22px;
+        line-height: 45px;
+    }
+
+    /* lay3 */
+
+    #lay3,
+    #lay4 {
+        width: 90%;
+    }
+
+    #lay3 {
+        margin-top: 100px;
+    }
+
+
+
+    #median {
+        margin-left: 3%;
+    }
+
+    .pg,
+    .hsc,
+    .sslc {
+
+        margin-left: 5%;
+        text-align: center;
+        font-size: 20px;
+        line-height: 200%;
+
+    }
+
+    .hsc:hover {
+        transform: scale(1.1);
+        border-radius: 30px;
+        background: linear-gradient(to left, rgb(243, 238, 238) 50%, rgb(73, 72, 72) 50%) right;
+        background-size: 200%;
+        color: black;
+    }
+
+    /* lay4 */
+
+    .exp {
+        margin-left: -9%;
+        margin-top: 20%;
+    }
+
+    .expDiv1 {
+        margin-left: 5%;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .expmargin1 {
+        font-weight: bold;
+    }
+
+    .expDiv2 {
+        margin-top: 2%;
+
+
+    }
+
+    .roll 
+    {
+        font-size: 23px;
+        margin-left: 15%;
+        height: 200px;
+        box-shadow: 2px 2px 2px  grey;
+        padding: auto;
+
+    }
+    .roll2{
+        font-size: 23px;
+        margin-left: 15%;
+        height: auto;
+        box-shadow: 2px 2px 2px  grey;
+        padding: auto;
+    }
+
+    /* lay5 */
+
+    #lay5 {
+        width: 98%;
+    }
+
+    .head {
+        margin-left: -12%;
+    }
+
+    .head:hover,
+    .div2:hover {
+        letter-spacing: 3px;
+    }
+
+    .div1 {
+        color: white;
+        font-size: 35px;
+        margin-left: -30px;
+        text-align: center;
+
+    }
+
+    .div2 {
+        margin-left: -8%;
+        font-size: 36px;
+
+    }
+
+    #langleft {
+        margin-left: -50px;
+        width: 100%;
+        font-size: 22px;
+        line-height: 45px;
+    }
+
+    #langright {
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .config {
+        margin-left: -20px;
+    }
+
+    .config:hover {
+        transform: scale(1.2);
+    }
+
+    /* lay6 */
+
+    #lay6 {
+        margin-top: -70%;
+        margin-bottom: 100px;
+    }
+
+    #skillstab {
+        width: 95%;
+        margin-left: 15%;
+    }
+
+    #skillsContent {
+        width: 90%;
+        margin-top: -10px;
+        line-height: 50px;
+        font-size: 25px;
+    }
+
+    .Skills {
+        margin-left: -12%;
+    }
+
+    /* lay7 */
+
+    #lay7 {
+        margin-top: 90%;
+    }
+
+    #contactContent {
+        width: 95%;
+        margin-top: -100px;
+    }
+
+    #contact {
+        width: 95%;
+        margin-left: -2%;
+    }
+
+    .tabLinks {
+        margin-left: 15%;
+    }
+
+    .Contacts:hover {
+        letter-spacing: 12px;
+    }
+
+    .ID {
+        font-size: 25px;
+        margin-left: -20px;
+    }
+
+}
+@media screen and (min-width: 481px) and (max-width : 768px){
+    
+
+    /* lay1 */
+
+
+   body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .name {
+        margin-left: 65px;
+        font-size: 50px;
+        margin-top: 30px;
+        color: blanchedalmond;
+        letter-spacing: 5px;
+        transition: 1s;
+        transform: scale(1);
+
+    }
+
+    .header {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 100%;
+        padding-right: 100%;
+    }
+
+
+    #right {
+        width: 60%;
+        text-align: right;
+    }
+
+    #left{
+        width:35%;
+    }
+
+    h1 {
+        margin-top: 100px;
+        font-size: 45px;
+        margin-left: 10%;
+        color: blanchedalmond;
+
+    }
+
+    .stack {
+        font-size: 35px;
+        color: blanchedalmond;
+        margin-top: 30px;
+        margin-left: 8%;
+        letter-spacing: 48px;
+
+
+    }
+
+    #full {
+        letter-spacing: 75px;
+    }
+
+    .prof {
+        font-size: 50px;
+        margin-top: -22px;
+        color: blanchedalmond;
+        margin-left: 8%;
+        letter-spacing: 2px;
+
+    }
+
+    .main_list {
+        width: 100%;
+        margin-left: 35px;
+        height: 0px;
+        line-height: 5px;
+        overflow: hidden;
+        background-color: rgb(77, 76, 75);
+        border-radius: 0px 50px 10px 0px;
+        color: black;
+    }
+    .main_list ul li a{
+        font-size: 25px;
+
+    }
+
+    .show {
+        height: fit-content;
+        width: fit-content;
+        padding: 20px;
+
+    }
+
+    .media_button {
+        display: block;
+        left:30px;
+        top:30px;
+    }
+
+
+    nav ul li a {
+        color: white;
+        font-weight:lighter;
+        width: 100px;
+        font-size: 22px;
+    
+    }
+
+    nav ul li a:hover {
+        color: black;
+        letter-spacing: 5px;
+        transform: scale(1.1);
+    }
+
+    nav ul li {
+        text-align: left;
+        padding-top: 10px;
+        margin-left: 80px;
+
+    }
+
+    /* lay2 */
+
+    #left2,
+    #right2 {
+        width: 90%;
+    }
+
+    .img {
+        height: 800px;
+        /* width: 500px; */
+        margin-left: 10px;
+    }
+    .about{
+        margin-left: 15%;
+    }
+
+    .about:hover,
+    .edu:hover,
+    .exp:hover,
+    .head:hover {
+        letter-spacing: 20px;
+        padding: 2px;
+    }
+
+    .aboutContent {
+        color: white;
+        margin-left: 20px;
+        text-align: justify;
+        font-size: 32px;
+        line-height: 55px;
+    }
+
+    /* lay3 */
+
+    #lay3,
+    #lay4 {
+        width: 90%;
+    }
+
+    #lay3 {
+        margin-top: 40px;
+    }
+
+    .edu{
+        margin-bottom: 100px;
+    }
+
+    #median {
+        margin-left:10%;
+    }
+
+    .pg,
+    .hsc,
+    .sslc {
+        margin-left: 5%;
+        text-align: center;
+        font-size: 35px;
+        line-height: 200%;
+
+    }
+
+ 
+
+    /* lay4 */
+
+    .exp {
+        margin: 15% 10%;
+    }
+
+    .expDiv1 {
+        margin-left: 5%;
+        padding: 10px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .expmargin1 {
+        font-weight: bold;
+    }
+
+    .expDiv2 {
+        margin-top: 20%;
+        margin-left: -3%;
+
+
+
+    }
+
+    .roll {
+        font-size: 35px;
+        height: 300px;
+        /* margin:13px; */
+        width: 270px;
+        box-shadow: 2px 2px 2px  grey;
+
+    }
+
+    /* lay5 */
+
+    #lay5 {
+        width: 98%;
+    }
+
+    .head {
+        margin: 8% 10%;
+    }
+
+    .head:hover,
+    .div2:hover {
+        letter-spacing: 8px;
+    }
+
+    .div1 {
+        color: white;
+        font-size: 35px;
+        margin: 35px 10px;
+        text-align: center;
+
+    }
+
+    .div2 {
+        margin-left: 4%;
+        font-size: 36px;
+
+    }
+
+    #langleft {
+        margin-left: -50px;
+        width: 100%;
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    #langright {
+        margin-left: 15%;
+        width: 90%;
+        font-size: 33px;
+        margin-top: 10px;
+    }
+
+    .config {
+        margin-left: 5px;
+    }
+
+    .config:hover {
+        transform: scale(1.2);
+    }
+
+    /* lay6 */
+
+    #lay6 {
+        margin-bottom: 100px;
+    }
+
+    #skillstab {
+        width: 95%;
+        margin-left: 15%;
+    }
+    .tabSkill{
+        font-size: 40px;
+        margin-left: 20%;
+        line-height: 100px;
+    }
+
+    #skillsContent {
+        width: 95%;
+        margin: 10px 110px;
+        line-height: 60px;
+        font-size: 32px;
+    }
+
+    .Skills {
+        margin-left: 8%;
+    }
+
+    /* lay7 */
+
+    #lay7 {
+        margin-top: 30%;
+    }
+
+    #contactContent {
+        width: 95%;
+        margin-top: -100px;
+    }
+
+    #contact {
+        width: 95%;
+        margin-left: 12%;
+    }
+
+    .tabLinks {
+        margin-left: 15%;
+        font-size: 40px;
+        line-height: 100px;
+    }
+
+     .Contacts:hover {
+        letter-spacing: 12px;
+    }
+
+    .ID {
+        font-size: 45px;
+        margin-left: 50px;
+        margin-top: -10%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width : 768px){
+
+    #left{
+        /* width:10px; */
+    }
+    #right{
+        width:50px;
+    }
+    
+}
+
